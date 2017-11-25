@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta name="description" content="">
+	    <meta name="author" content="">
+	    <link rel="icon" href="pizza2.ico">
+	    <title>Pizza Pie - Online Ordering</title>
+	    <!-- Bootstrap core CSS -->
+	    <link href="css/bootstrap.css" rel="stylesheet">
+	    <!-- Custom styles for this template -->
+	    <link href="css/album.css" rel="stylesheet">
+	</head>
+	<body>
+	    <header>
+		    <nav class="navbar navbar-dark fixed-top" id="mainNav">
+		        <div class="container d-flex justify-content-between">
+		        	<a href="index.html" class="navbar-brand">Pizza Pie</a>
+		        	<div class="dropdown ">
+		            	<a class="nav-link" href="#" id="dropdownMenuButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		            		<span class="navbar-toggler-icon"></span>
+		            	</a>
+		            	<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+		            		<a class="dropdown-item" href="#myCarousel">Deals</a>
+		            		<a class="dropdown-item" href="#menu">Menu</a>
+		            		<a class="dropdown-item" href="#orderForm">Order</a>
+		            		<a class="dropdown-item" href="#contact">Contact Us</a>
+		            	</div>
+		        	</div>
+		        </div>
+		    </nav>
+	    </header>
+	    <main>
+	      	<div class="deals">
+	        	<div class="container">
+	          		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	            		<div class="carousel-inner">
+	              			<div class="carousel-item active">
+	                			<img class="d-block" src="pizza-ad01.jpg" alt="First slide">
+	              			</div>
+	              			<div class="carousel-item">
+	                			<img class="d-block" src="pizza-ad02.jpg" alt="Second slide">
+	              			</div>
+	              			<div class="carousel-item">
+	                			<img class="d-block" src="pizza-ad03.jpg" alt="Third slide">
+	              			</div>
+	            		</div>
+	            		<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+	              			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	              			<span class="sr-only">Previous</span>
+	            		</a>
+	            		<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+	              			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	              			<span class="sr-only">Next</span>
+	            		</a>
+	          		</div>
+	        	</div>
+	      	</div>
+	      	<div class="menu">
+	        	<div class="container" id="menu">
+	          		<div class="row">
+	            		<div class="col-lg">
+	              			<div class="card">
+	                			<img class="card-img-top" data-src="holder.js/100px280?theme=thumb" src="img/cheese.png" alt="Cheese">
+	                			<div class="card-body">
+	                  				<h4 class="card-title">Cheese</h4>
+	                			</div>
+	              			</div>
+	            		</div>
+	            		<div class="col-lg">
+	              			<div class="card">
+	                			<img class="card-img-top" data-src="holder.js/100px280?theme=thumb" src="img/pepperoni.png" alt="Pepperoni">
+	                			<div class="card-body">
+	                  				<h4 class="card-title">Pepperoni</h4>                  				
+	                			</div>
+	              			</div>
+	            		</div>
+	            		<div class="col-lg">
+	              			<div class="card">
+	                			<img class="card-img-top" data-src="holder.js/100px280?theme=thumb" src="img/hawaiian.png" alt="Hawaiian">
+	                			<div class="card-body">
+	                  				<h4 class="card-title">Hawaiian</h4>
+	                			</div>
+	              			</div>
+	            		</div>
+	        		</div>
+	        		<div class="row">
+	            		<div class="col-lg">
+	            			<div class="card">
+	                			<img class="card-img-top" data-src="holder.js/100px280?theme=thumb" src="img/veggie.png" alt="Veggie">
+	                			<div class="card-body">
+	                  				<h4 class="card-title">Veggie</h4>
+	                			</div>
+	            			</div>
+	            		</div>
+	            		<div class="col-lg">
+		            		<div class="card">
+		                		<img class="card-img-top" data-src="holder.js/100px280?theme=thumb" src="img/supreme.png" alt="Supreme">
+		                		<div class="card-body">
+		                			<h4 class="card-title">Supreme</h4>
+		                		</div>
+		            		</div>
+	            		</div>
+	            		<div class="col-lg">
+		            		<div class="card">
+		                		<img class="card-img-top" data-src="holder.js/100px280?theme=thumb" src="img/meat_lovers.png" alt="Double Meat">
+		                		<div class="card-body">
+		                			<h4 class="card-title">Double Meat</h4>
+		                		</div>
+		            		</div>
+	            		</div>
+	        		</div>
+	        	</div>
+	    	</div>
+	    	<div class="orderForm clearfix" id="orderForm">
+	    		<div class="container">
+	    			<form id="frmMenu">
+	    				<div id="accordion" role="tablist">
+			  				<div class="card cardMenu">
+			  					<div class="card-header" role="tab" id="headingOne">
+			  						<h5 class="mb-0">
+			  							<a class="orderCard" data-toggle="collapse" href="#size" aria-expanded="false" aria-controls="size">
+			  								Size
+			  							</a>
+			  						</h5>
+			  					</div>
+			  					<div id="size" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+			  						<div class="card-body">
+			  							<input class= "size" type="radio" name="size" value="Personal Pizza"> Personal Pizza<br />
+			      						<input class= "size" type="radio" name="size" value="Medium Pizza"> Medium Pizza<br />
+			      						<input class= "size" type="radio" name="size" value="Large Pizza" checked=""> Large Pizza<br />
+			      						<input class= "size" type="radio" name="size" value="Extra Large Pizza"> Extra Large Pizza<br />
+			  						</div>
+			  					</div>
+			  				</div>
+			  				<div class="card cardMenu">
+			  					<div class="card-header" role="tab" id="headingTwo">
+			  						<h5 class="mb-0">
+			  							<a class="orderCard" data-toggle="collapse" href="#crust" aria-expanded="false" aria-controls="crust">
+		  									Crust
+			  							</a>
+			  						</h5>
+			  					</div>
+			  					<div id="crust" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+			  						<div class="card-body">
+			  							<input class= "crust" type="radio" name="crust" value="Plain Crust" checked=""> Plain Crust<br />
+			      						<input class= "crust" type="radio" name="crust" value="Garlic Butter Crust"> Garlic Butter Crust<br />
+			      						<input class= "crust" type="radio" name="crust" value="Cheese Stuffed Crust"> Cheese Stuffed Crust<br />
+			      						<input class= "crust" type="radio" name="crust" value="Spicy Crust"> Spicy Crust<br />
+			      						<input class= "crust" type="radio" name="crust" value="House Special Crust"> House Special Crust<br />
+			  						</div>
+			  					</div>
+			  				</div>
+			  				<div class="card cardMenu">
+			  					<div class="card-header" role="tab" id="headingThree">
+			  						<h5 class="mb-0">
+			  							<a class="orderCard" data-toggle="collapse" href="#meats" aria-expanded="false" aria-controls="meats">
+		  									Meats
+			  							</a>
+			  						</h5>
+			  					</div>
+			  					<div id="meats" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+			  						<div class="card-body">
+			  							<input class= "meats" type="checkbox" name="meats" value="Pepperoni" checked=""> Pepperoni<br />
+			      						<input class= "meats" type="checkbox" name="meats" value="Sausage"> Sausage<br />
+			      						<input class= "meats" type="checkbox" name="meats" value="Canadian Bacon"> Canadian Bacon<br />
+			      						<input class= "meats" type="checkbox" name="meats" value="Ground Beef"> Ground Beef<br />
+			      						<input class= "meats" type="checkbox" name="meats" value="Anchovy"> Anchovy<br />
+			      						<input class= "meats" type="checkbox" name="meats" value="Chicken"> Chicken<br />
+			  						</div>
+			  					</div>
+			  				</div>
+			  				<div class="card cardMenu">
+			  					<div class="card-header" role="tab" id="headingFour">
+			  						<h5 class="mb-0">
+			  							<a class="orderCard" data-toggle="collapse" href="#veggies" aria-expanded="false" aria-controls="veggies">
+		  									Veggies
+			  							</a>
+			  						</h5>
+			  					</div>
+			  					<div id="veggies" class="collapse" role="tabpanel" aria-labelledby="headingFour" data-parent="#accordion">
+			  						<div class="card-body">
+			  							<input class= "veggies" type="checkbox" name="veggies" value="Tomatoes"> Tomatoes<br />
+			      						<input class= "veggies" type="checkbox" name="veggies" value="Onions"> Onions<br />
+			      						<input class= "veggies" type="checkbox" name="veggies" value="Olives"> Olives<br />
+			      						<input class= "veggies" type="checkbox" name="veggies" value="Green Peppers"> Green Peppers<br />
+			      						<input class= "veggies" type="checkbox" name="veggies" value="Mushrooms"> Mushrooms<br />
+			      						<input class= "veggies" type="checkbox" name="veggies" value="Pineapple"> Pineapple<br />
+			      						<input class= "veggies" type="checkbox" name="veggies" value="Spinach"> Spinach<br />
+			      						<input class= "veggies" type="checkbox" name="veggies" value="Jalapenos"> Jalapenos<br />
+			  						</div>
+			  					</div>
+			  				</div>
+			  				<div class="card cardMenu">
+			  					<div class="card-header" role="tab" id="headingFive">
+			  						<h5 class="mb-0">
+			  							<a class="orderCard" data-toggle="collapse" href="#cheese" aria-expanded="false" aria-controls="cheese">
+		  									Cheese
+			  							</a>
+			  						</h5>
+			  					</div>
+			  					<div id="cheese" class="collapse" role="tabpanel" aria-labelledby="headingFive" data-parent="#accordion">
+			  						<div class="card-body">
+			  							<input class= "cheese" type="radio" name="cheese" value="No Cheese"> No Cheese<br />
+			      						<input class= "cheese" type="radio" name="cheese" value="Regular Cheese" checked=""> Regular Cheese<br />
+			      						<input class= "cheese" type="radio" name="cheese" value="Extra Cheese"> Extra Cheese<br />
+			  						</div>
+			  					</div>
+			  				</div>
+			  				<div class="card cardMenu">
+			  					<div class="card-header" role="tab" id="headingSix">
+			  						<h5 class="mb-0">
+			  							<a class="orderCard" data-toggle="collapse" href="#sauce" aria-expanded="false" aria-controls="sauce">
+		  									Sauce
+			  							</a>
+			  						</h5>
+			  					</div>
+			  					<div id="sauce" class="collapse" role="tabpanel" aria-labelledby="headingSix" data-parent="#accordion">
+			  						<div class="card-body">
+			  							<input class= "sauce" type="radio" name="sauce" value="Marinara Sauce" checked=""> Marinara Sauce<br />
+			      						<input class= "sauce" type="radio" name="sauce" value="White Sauce"> White Sauce<br />
+			      						<input class= "sauce" type="radio" name="sauce" value="Barbecue Sauce"> Barbecue Sauce<br />
+			      						<input class= "sauce" type="radio" name="sauce" value="No Sauce"> No Sauce<br />
+			  						</div>
+			  					</div>
+			  				</div>
+			  			</div>
+	    			</form>
+		    	</div>
+	    	</div>
+	    	<div class="cart">
+	    		<div class="container text-center">
+			  		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart" onclick="getReceipt()">Submit Order</button>
+	    		</div>
+	    	</div>
+    		<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="cart" aria-hidden="true">
+    			<div class="modal-dialog" role="document">
+    				<div class="modal-content">
+    					<div class="modal-header">
+    						<h5 class="modal-title" id="cartModal">Confirm Order</h5>
+    						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    							<span aria-hidden="true">&times;</span>
+    						</button>
+    					</div>
+    					<div class="modal-body">
+    						<div id="showText"></div>
+    						<div id="totalPrice"></div>
+    					</div>
+    					<div class="modal-footer">
+    						<button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="clearOrder()">Cancel Order</button>
+    						<button type="button" class="btn btn-primary" data-dismiss="modal" onclick="placeOrder()">Place Order</button>
+    					</div>
+    				</div>
+    			</div>
+    		</div>	
+	    </main>
+	    <footer class="text-muted" id="contact">
+    		<div class="container">
+		        <p>&copy; Pizza Pie</p>
+		        <br />
+		        <p>Pizza Pie</p>
+		        <p>3478 N Normandy St</p>
+		        <p>Vernon, Wy 45780</p>
+		        <p>(780) 458-7895</p>
+	    	</div>
+	    </footer>
+
+	    <!-- Bootstrap core JavaScript
+	    ================================================== -->
+	    <!-- Placed at the end of the document so the pages load faster -->
+	    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+	    <script src="js/popper.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <script src="js/holder.min.js"></script>
+	    <script>
+	      Holder.addTheme('thumb', {
+	        bg: '#55595c',
+	        fg: '#eceeef',
+	        text: 'Thumbnail'
+	      });
+	    </script>
+
+	    <!-- Receipt Script -->
+	    <script type="text/javascript" src="js/final_drill.js"></script>
+
+	    <script type="text/javascript">
+	    	function placeOrder() {
+	    		alert("Your order has been placed!");
+	    		clearOrder();
+	    	}
+	    	function clearOrder() {
+	    		document.getElementById("frmMenu").reset();
+	    	}
+
+	    </script>
+	</body>
+</html>
